@@ -1,11 +1,9 @@
 html, body {
   font-size: 16px;
   margin: 0;
-  /*height: 100%;*/
+  color: #272b38;
 }
 .home {
-        /*font-family: 'Noto Sans', sans-serif;*/
-        /*font-family: 'Poppins', sans-serif;*/
   font-family: 'Raleway', sans-serif;
   align-items: center;
   display: flex;
@@ -27,9 +25,8 @@ html, body {
   width: 80%;
   z-index: 2;
   padding: 0 40px;
-  /*position: relative;*/
   flex-direction: column;
-  background-color: #fff;
+  background-color: #fefeff;
   align-items: center;
   box-shadow: 0 1px 8px 0 rgba(0,0,0,.2);
   border-radius: 2px;
