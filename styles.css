@@ -107,13 +107,14 @@ li a {
 
 .contact {
   display: grid;
+  padding-left: 10px;
   width: 100%;
   padding-top: 40px;
   color: #8c9ac3;
   font-size: 2em;
   grid-column-gap: 10px;
   grid-row-gap: 15px;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 
