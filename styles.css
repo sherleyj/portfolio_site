@@ -59,6 +59,12 @@ html, body {
  text-align: center;
 }
 
+.sub-header {
+  font-size: .5em;
+  text-align: center;
+  padding: 10px; 
+}
+
 .circle-img {
   border-radius: 50%;
   max-width: 225px;
@@ -99,7 +105,7 @@ li a {
   line-height: 25px;
 }
 
-.about a {
+.link {
   text-decoration: none;
   color: #8c9ac3;
 }
