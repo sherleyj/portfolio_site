@@ -65,6 +65,11 @@ html, body {
   padding: 10px; 
 }
 
+.sub-header a { 
+  text-decoration: none;
+  color: #8c9ac3;
+}
+
 .circle-img {
   border-radius: 50%;
   max-width: 225px;
@@ -105,7 +110,7 @@ li a {
   line-height: 25px;
 }
 
-.link {
+.about a {
   text-decoration: none;
   color: #8c9ac3;
 }
