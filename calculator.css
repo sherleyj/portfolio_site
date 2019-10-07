@@ -55,6 +55,9 @@
 
     .home-inner {
       margin-top: 3px;
+    }
 
+    .toolkit-container {
+        width: 100%;
     }
 }
