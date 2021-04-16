@@ -100,10 +100,6 @@ li a {
   color: #000;
 }
 
-.name {
-  
-}
-
 .name a {
   float: left;
   text-align: center;
@@ -117,6 +113,9 @@ li a {
   display: flex;
   flex-direction: row;
   line-height: 25px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
 }
 
 .about a {
@@ -131,7 +130,7 @@ li a {
 
 .contact {
   display: grid;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   width: 100%;
   padding-top: 40px;
   color: #707ca2;
@@ -162,7 +161,74 @@ li a {
 
 .footer {
   width: 100%;
-  height: 100px;
+  height: 39px;
+}
+
+.highlight {
+  color: #707ca2;
+}
+
+.project-page-title {
+  font-size: 2em;
+  text-align: center;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.projects-container {
+  padding-top: 100px;
+  width: 100%;
+}
+
+.project-description a {
+  text-decoration: none;
+  color: #707ca2;
+}
+
+.project {
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.project-title {
+  font-size: 1.7em;
+  padding-bottom: 8px; 
+}
+
+.tx-img {
+  max-width: 60px;
+  display: inline;
+  flex-basis: 20%;
+  padding-left: 30px;
+}
+
+.laptop-img {
+  max-width: 110px;
+  /* border-radius: 50%; */
+  padding-left: 30px;
+}
+
+.project-description {
+  font-size: 20px;
+}
+
+.about-desc {
+  text-align: center;
+  display: inline;
+  flex-basis: 80%;
+  padding-left: 20px;
+}
+
+.about-container {
+  padding-top: 10px;
+}
+
+.project-title-main {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  font-size: 2em;
+  padding-bottom: 50px;
 }
 
 @media  (max-width: 800px) {
@@ -245,37 +311,13 @@ li a {
     font-weight: bold;
     color: #FFF;
   }
-}
 
-.highlight {
-  color: #707ca2;
+  .laptop-img {
+    display: none;
+  }
+  
+  .tx-img {
+    display: none;
+  }
 }
-
-.project-page-title {
-  font-size: 2em;
-  text-align: center;
-  width: 100%;
-  padding-top: 100px;
-}
-
-.projects-container {
-  padding-top: 100px;
-  width: 100%;
-}
-
-.project-description a {
-  text-decoration: none;
-  color: #707ca2;
-}
-
-.project {
-  padding-bottom: 50px;
-  width: 100%;
-}
-
-.project-title {
-  font-size: 2em;
-  padding-bottom: 8px; 
-}
-
 
